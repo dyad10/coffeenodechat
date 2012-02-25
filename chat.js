@@ -40,6 +40,6 @@
     });
   });
 
-  server.listen(8888);
+  server.listen(80);
 
 }).call(this);

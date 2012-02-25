@@ -7,7 +7,7 @@
     <script type="text/javascript">
       $(document).ready(function() {
         var entry_el = $('#entry');
-        var socket = io.connect('http://localhost:8888');
+        var socket = io.connect('http://coffeenodechat.nodester.com');
         console.log('connecting...');
         socket.on('connect', function() {
           console.log('connect');
